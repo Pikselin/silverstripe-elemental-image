@@ -1,0 +1,30 @@
+/**
+ * Override these styles in your own Stylesheet.
+ **/
+
+.pikselin__imageblock__elements__image {
+    padding-bottom: 2rem;
+}
+.pikselin__imageblock__elements__image .feature-image {
+    padding: 0;
+    margin: 0;
+    max-width: 60rem;
+}
+.pikselin__imageblock__elements__image .feature-image img {
+    display: block;
+    border-radius: .5rem 2.5rem .5rem 2.5rem;
+    overflow: hidden;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+@media (min-width: 1024px) {
+    .pikselin__imageblock__elements__image .feature-image img {
+        border-radius: .5rem 3.5rem .5rem 3.5rem;
+    }
+}
+.pikselin__imageblock__elements__image .feature-image figcaption {
+    font-size: .9375rem;
+    line-height: 1.6;
+    padding-top: 1rem;
+}

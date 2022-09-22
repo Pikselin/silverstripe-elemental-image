@@ -1,0 +1,12 @@
+---
+Name: image-block-config
+---
+Pikselin\ImageBlock\Elements\Image:
+  # By default, all images are allowed, but you can optionally limit file extensions allowed
+#  allowed_extensions:
+#    - 'jpg'
+#    - 'jpeg'
+  # where the uploaded images should go by default
+  folder_name: 'ElementalImages'
+  # use responsive images (picture tags)
+  use_responsive_images: true

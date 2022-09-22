@@ -1,0 +1,13 @@
+---
+Name: image-block-responsive-image-config
+After: 'silverstripe-responsive-images/*'
+---
+Heyday\ResponsiveImages\ResponsiveImageExtension:
+  sets:
+    ImageElemental:
+      css_classes: 'feature-image__image'
+      template: 'Pikselin/ImageBlock/Includes/ResponsiveImageSet'
+      arguments:
+        '(max-width: 450px)': [400]
+        '(max-width: 850px)': [800]
+        '(min-width: 851px)': [1000]

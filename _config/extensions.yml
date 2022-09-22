@@ -1,0 +1,7 @@
+---
+Name: image-block-extensions
+---
+# Adds css requirement directive
+PageController:
+  extensions:
+    - Pikselin\ImageBlock\Extensions\ImageControllerExtension
