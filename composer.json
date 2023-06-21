@@ -18,8 +18,8 @@
 		"silverstripe/cms": "^4",
 		"silverstripe/framework": "^4",
 		"dnadesign/silverstripe-elemental": "^4",
-        "heyday/silverstripe-responsive-images": "^2",
-        "purplespider/asset-alt-text": "^1.1.0"
+        	"heyday/silverstripe-responsive-images": "^3",
+        	"purplespider/asset-alt-text": "^1.1.0"
 	},
 	"license": "The MIT License (MIT)",
 	"autoload": {
