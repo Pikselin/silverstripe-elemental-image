@@ -4,9 +4,7 @@
         <% if $UseResponsiveImages %>
             $FeatureImage.ImageElemental
         <% else %>
-            <img loading="lazy"
-                 src="$FeatureImage.ScaleMaxWidth(920).URL"
-                 alt="$AltText"/>
+            $FeatureImage.ScaleMaxWidth(920)
         <% end_if %>
         <% if $Caption %>
             <figcaption>$Caption</figcaption>
