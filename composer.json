@@ -15,11 +15,11 @@
 		"image"
 	],
 	"require": {
-		"silverstripe/cms": "^4",
-		"silverstripe/framework": "^4",
-		"dnadesign/silverstripe-elemental": "^4",
-        	"heyday/silverstripe-responsive-images": "^3",
-        	"purplespider/asset-alt-text": "^1.1.0"
+		"silverstripe/cms": "^5",
+		"silverstripe/framework": "^5",
+		"dnadesign/silverstripe-elemental": "^5",
+        	"heyday/silverstripe-responsive-images": "dev-master",
+        	"purplespider/asset-alt-text": "dev-master"
 	},
 	"license": "The MIT License (MIT)",
 	"autoload": {
