@@ -10,9 +10,12 @@ Features:
 - adds an alt text field to the image object via the `purplespider/asset-alt-text` module
 
 ## Installation
-This module only works with SilverStripe 4.x.
-
+This module works with SilverStripe 4.x and 5.x
+### SS5
 `composer require pikselin/silverstripe-elemental-image`
+
+### SS4
+`composer require pikselin/silverstripe-elemental-image:^4`
 
 Run `dev/build` afterwards.
 
