@@ -19,7 +19,7 @@
 		"silverstripe/framework": "^5",
 		"dnadesign/silverstripe-elemental": "^5",
         	"heyday/silverstripe-responsive-images": "dev-master",
-        	"purplespider/asset-alt-text": "dev-master"
+        	"purplespider/asset-alt-text": "2.0.0"
 	},
 	"license": "The MIT License (MIT)",
 	"autoload": {
